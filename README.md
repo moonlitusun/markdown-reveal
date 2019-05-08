@@ -7,13 +7,13 @@
 **npm**
 
 ```bash
-npm install marker -g
+npm install markdown-reveal -g
 ```
 
 **yarn**
 
 ```bash
-yarn global add marker
+yarn global add markdown-reveal
 ```
 
 # :smiling_imp: Usage
