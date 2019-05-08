@@ -1,4 +1,4 @@
-<h1 align="center">Marker</h1>
+<h1 align="center">markdown-reveal</h1>
 
 <h5 align="center">Fast, flexible & convert your makedown file to a beautiful html page.</h5>
 
