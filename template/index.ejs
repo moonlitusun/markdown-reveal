@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title><%- title %></title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.6/build/styles/atom-one-dark.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.8/themes/default/style.min.css" />
+  <link rel="stylesheet" href="https://at.alicdn.com/t/font_1180751_ikoysoc4d4m.css" />
+  <link rel="stylesheet" href="./index.min.css">
+  <%- links %>
+</head>
+
+<body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.8/jstree.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.6/build/highlight.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.4/dist/medium-zoom.min.js"></script>
+  <script>
+    $(function () {
+      $('#sidebar').jstree({
+        'core': {
+          "themes": {
+            "dots": false,
+            "icons": false,
+            "stripes": false,
+            "variant": "large",
+          },
+          "check_callback": true,
+          "multiple": false,
+          'data': <%- navTreeData %>
+        },
+        "plugins": ["wholerow"]
+      });
+    })
+  </script>
+  <script src="./index.min.js"></script>
+  <%- scripts %>
+  <div id="sidebar"></div>
+
+  <div>
+    <ul class="handle-bar">
+      <li>
+        <i class="iconfont icon-cebianlancaidan" id="toggleSidebar"></i>
+      </li>
+    </ul>
+  </div>
+
+  <div id="content">
+    <%- content %>
+  </div>
+</body>
+
+</html>

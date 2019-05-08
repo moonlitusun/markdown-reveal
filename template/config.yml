@@ -1,0 +1,36 @@
+# @desc: Open html in brower
+# @type: boolean
+openInBrower: false
+
+# @desc: Log process
+# @type: boolean
+logProcess: true
+
+# @desc: html title
+# @type: string
+# @default: marker
+title: 'marker'
+
+# @desc: Whether to display the title number
+# @type: boolean
+showSerialNumber: false
+
+# @desc: Whether to expand all nodes
+# @type: boolean
+openAllNode: false
+
+# @desc: Additional custom scripts that need to be introduced
+# @type: Array
+# @example:
+#  scripts:
+#   - 'xxx1'
+#   - 'xxx2'
+scripts:
+
+# @desc: Additional custom links that need to be introduced
+# @type: Array
+# @example:
+#  links:
+#   - 'xxx1'
+#   - 'xxx2'
+links:

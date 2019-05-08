@@ -1,0 +1,44 @@
+{
+  "name": "marker",
+  "version": "0.0.1",
+  "description": "convert your markdown file to a beautiful html page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "mk": "./bin/mk.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moonlitusun/marker.git"
+  },
+  "keywords": [
+    "markdown",
+    "md",
+    "markdown converter",
+    "html",
+    "markdownToHtml",
+    "mdToHtml",
+    "markdownHtml"
+  ],
+  "author": "moonlit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moonlitusun/marker/issues"
+  },
+  "homepage": "https://github.com/moonlitusun/marker#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "cheerio": "^1.0.0-rc.3",
+    "commander": "^2.20.0",
+    "ejs": "^2.6.1",
+    "highlight.js": "^9.15.6",
+    "js-yaml": "^3.13.1",
+    "marked": "^0.6.2",
+    "open": "^6.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  }
+}
