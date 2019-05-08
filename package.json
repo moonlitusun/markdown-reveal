@@ -1,5 +1,5 @@
 {
-  "name": "marker",
+  "name": "markdown-reveal",
   "version": "0.0.1",
   "description": "convert your markdown file to a beautiful html page",
   "main": "index.js",
