@@ -2,6 +2,10 @@
 
 <h5 align="center">Fast, flexible & convert your makedown file to a beautiful html page.</h5>
 
+# :eyes: Preview
+
+![Preview](./demo/image/mk-preview.png)
+
 # :two_hearts: :email: Installation
 
 **npm**
