@@ -4,7 +4,7 @@
 
 # :eyes: Preview
 
-![Preview](./demo/image/mk-preview.png)
+![Preview](https://github.com/moonlitusun/markdown-reveal/blob/0/demo/image/mk-preview.jpg)
 
 # :two_hearts: :email: Installation
 
