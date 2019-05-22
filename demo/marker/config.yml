@@ -21,7 +21,7 @@ openAllNode: false
 
 # @desc: Additional custom scripts that need to be introduced
 # @type: Array
-# @example: 
+# @example:
 #  scripts:
 #   - 'xxx1'
 #   - 'xxx2'
@@ -29,7 +29,7 @@ scripts:
 
 # @desc: Additional custom links that need to be introduced
 # @type: Array
-# @example: 
+# @example:
 #  links:
 #   - 'xxx1'
 #   - 'xxx2'
