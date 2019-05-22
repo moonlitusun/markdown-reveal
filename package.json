@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/moonlitusun/marker.git"
+    "url": "git+https://github.com/moonlitusun/markdown-reveal.git"
   },
   "keywords": [
     "markdown",
@@ -25,9 +25,9 @@
   "author": "moonlit",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/moonlitusun/marker/issues"
+    "url": "https://github.com/moonlitusun/markdown-reveal/issues"
   },
-  "homepage": "https://github.com/moonlitusun/marker#readme",
+  "homepage": "https://github.com/moonlitusun/markdown-reveal#readme",
   "dependencies": {
     "chalk": "^2.4.2",
     "cheerio": "^1.0.0-rc.3",
