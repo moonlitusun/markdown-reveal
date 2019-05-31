@@ -2,6 +2,8 @@
 
 <h5 align="center">Fast, flexible & convert your makedown file to a beautiful html page.</h5>
 
+English | [简体中文](./README-zh_CN.md)
+
 # :eyes: Preview
 
 [✨ DEMO HOMEPAGE](http://moonlit.vip/markdown-reveal/)
