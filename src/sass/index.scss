@@ -1,3 +1,5 @@
+@import '_basis';
+
 body {
   padding-top: 0;
   padding-left: 300px;
@@ -30,7 +32,6 @@ body {
   padding: 0 15px;
   border-bottom: 0;
   box-shadow: none !important;
-  -webkit-box-shadow: none !important;
   font-size: 17px;
   line-height: 50px;
   text-transform: uppercase;
