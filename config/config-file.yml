@@ -7,9 +7,10 @@ openInBrower: false
 logProcess: true
 
 # @desc: html title
-# @type: string
+# @type: string | object
 # @default: marker
-title: 'marker'
+# @example
+title:
 
 # @desc: Whether to display the title number
 # @type: boolean
