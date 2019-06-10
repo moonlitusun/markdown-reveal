@@ -68,6 +68,48 @@ mk -f my-markdown.md
 
 与同名参数`openInBrower`作用一样，如果嫌每次都在命令行里输入比较麻烦，可以在这里单独设置
 
+```yml
+
+
+# @desc: html title
+# @type: string | object
+# @default: marker
+# @example
+title:
+
+# @desc: Additional custom scripts that need to be introduced
+# @type: Array
+# @example:
+#  scripts:
+#   - 'xxx1'
+#   - 'xxx2'
+scripts:
+
+# @desc: Additional custom links that need to be introduced
+# @type: Array
+# @example:
+#  links:
+#   - 'xxx1'
+#   - 'xxx2'
+links:
+
+# @desc: Whether to display the title number
+# @type: boolean
+showSerialNumber: false
+
+# @desc: Whether to expand all nodes
+# @type: boolean
+openAllNode: false
+
+# @desc: Open html in brower
+# @type: boolean
+openInBrower: false
+
+# @desc: Log process
+# @type: boolean
+logProcess: true
+```
+
 # todolist
 
 支持转换文件夹

@@ -12,7 +12,7 @@ const plumber = require('gulp-plumber');
 const postcss = require('gulp-postcss');
 const autoprefixer = require('autoprefixer');
 const cssnano = require('cssnano');
-const sourcemaps = require('gulp-sourcemaps');
+// const sourcemaps = require('gulp-sourcemaps');
 const babel = require('gulp-babel');
 const newer = require('gulp-newer');
 const gulpHtmlMin = require('gulp-htmlmin');
@@ -23,7 +23,7 @@ function entryPrefix(v) {
 }
 
 function outputPrefix(v) {
-  return `assets/${v[0]}`;
+  return `src/dist/${v[0]}`;
 }
 
 function browserSync(done) {
