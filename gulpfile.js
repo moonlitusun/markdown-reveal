@@ -19,11 +19,11 @@ const gulpHtmlMin = require('gulp-htmlmin');
 const uglify = require('gulp-uglify');
 
 function entryPrefix(v) {
-  return `src/${v[0]}`;
+  return `src${v[0]}`;
 }
 
 function outputPrefix(v) {
-  return `src/dist/${v[0]}`;
+  return `src/dist${v[0]}`;
 }
 
 function browserSync(done) {

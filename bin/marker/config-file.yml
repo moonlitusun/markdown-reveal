@@ -3,7 +3,7 @@ scripts:
 links:
 
 showSerialNumber: true
-openAllNode: true
+openAllNode: false
 
 openInBrower: false
-logProcess: false
+logProcess: true

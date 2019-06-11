@@ -1,46 +1,56 @@
 @import '_basis';
 
+$sidebar-width: 300px;
+$handlebar-height: 40px;
+
 body {
+  display: flex;
   padding-top: 0;
-  padding-left: 300px;
+  padding-left: $sidebar-width;
   font-family: "Open Sans", "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #sidebar {
   position: fixed;
   top: 0;
-  right: 0;
-  bottom: 0;
   left: 0;
-  width: 300px;
-  height: 100%;
+  width: $sidebar-width;
+  height: 100vh;
   padding-top: 7px;
   overflow: auto;
+  box-sizing: border-box;
   background-color: #fafafa;
 }
 
-.handle-bar {
+.m-handle-bar {
+  position: fixed;
+  top: 0;
+  left: $sidebar-width;
+  width: 100%;
   padding-left: 10px;
+  background-color: #fff;
   list-style: none;
 }
 
-.handle-bar li i {
-  display: block;
-  position: relative;
-  width: 50px;
-  height: 50px;
-  padding: 0 15px;
-  border-bottom: 0;
-  box-shadow: none !important;
-  font-size: 17px;
-  line-height: 50px;
-  text-transform: uppercase;
-  color: #ccc;
-  cursor: pointer;
-}
+.handle-bar__list {
+  > i {
+    display: block;
+    position: relative;
+    width: 40px;
+    height: 100%;
+    padding: 0 15px;
+    border-bottom: 0;
+    box-shadow: none !important;
+    font-size: 17px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #ccc;
+    cursor: pointer;
 
-.handle-bar li i:hover {
-  color: #444;
+    &:hover {
+      color: #444;
+    }
+  }
 }
 
 #content {
@@ -48,6 +58,7 @@ body {
   min-width: 500px;
   max-width: 1300px;
   margin-left: 20%;
+  padding-top: $handlebar-height;
 }
 
 code {
@@ -82,4 +93,5 @@ h6 {
 
 img {
   max-width: 100%;
+  border-radius: 5px;
 }

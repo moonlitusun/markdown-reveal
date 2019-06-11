@@ -10,9 +10,8 @@ $(function () {
     sidebarDom = $('#sidebar');
 
   // jstree
-  $('#sidebar').on("changed.jstree", function (e, data) {
-    var _id = "#" + "tree" + data.selected;
-    location.hash = _id;
+  $('#sidebar').on('changed.jstree', function (e, data) {
+    location.hash = `#mk-${data.selected}`;
   });
 
   // mediumZoom
