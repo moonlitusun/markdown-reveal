@@ -89,6 +89,4 @@ links:
 
 # :flashlight: TODOLIST
 
-- [ ] Support convert folder
-- [ ] Compress static resources
 - [ ] link animate

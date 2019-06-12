@@ -16,14 +16,4 @@ $(function () {
 
   // mediumZoom
   mediumZoom(document.querySelectorAll('img'));
-
-  $('#toggleSidebar').click(function() {
-    const width = isOpenSidebar ? 0 : '300px';
-
-    bodyDom.animate({ 'paddingLeft': width }, 500);
-
-    sidebarDom.animate({ 'width': width }, 500);
-
-    isOpenSidebar = !isOpenSidebar;
-  })
 })

@@ -1,9 +1,14 @@
+# html pages
 title:
 scripts:
 links:
 
-showSerialNumber: true
-openAllNode: false
+# sidebar
+sidebar:
+  show: true
+  showSerialNumber: false
+  openAllNode: false
 
+# other
 openInBrower: false
 logProcess: true

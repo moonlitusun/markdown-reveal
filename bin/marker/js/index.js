@@ -1,1 +1,1 @@
-hljs.initHighlightingOnLoad(),$(function(){var e=!0,n=$("body"),t=$("#sidebar");$("#sidebar").on("changed.jstree",function(i,e){location.hash="#mk-".concat(e.selected)}),mediumZoom(document.querySelectorAll("img")),$("#toggleSidebar").click(function(){var i=e?0:"300px";n.animate({paddingLeft:i},500),t.animate({width:i},500),e=!e})});
+hljs.initHighlightingOnLoad(),$(function(){$("body"),$("#sidebar");$("#sidebar").on("changed.jstree",function(e,i){location.hash="#mk-".concat(i.selected)}),mediumZoom(document.querySelectorAll("img"))});

@@ -1,7 +1,6 @@
 @import '_basis';
 
 $sidebar-width: 300px;
-$handlebar-height: 40px;
 
 body {
   display: flex;
@@ -22,43 +21,11 @@ body {
   background-color: #fafafa;
 }
 
-.m-handle-bar {
-  position: fixed;
-  top: 0;
-  left: $sidebar-width;
-  width: 100%;
-  padding-left: 10px;
-  background-color: #fff;
-  list-style: none;
-}
-
-.handle-bar__list {
-  > i {
-    display: block;
-    position: relative;
-    width: 40px;
-    height: 100%;
-    padding: 0 15px;
-    border-bottom: 0;
-    box-shadow: none !important;
-    font-size: 17px;
-    line-height: 50px;
-    text-transform: uppercase;
-    color: #ccc;
-    cursor: pointer;
-
-    &:hover {
-      color: #444;
-    }
-  }
-}
-
 #content {
   width: 50%;
   min-width: 500px;
   max-width: 1300px;
-  margin-left: 20%;
-  padding-top: $handlebar-height;
+  margin: 0 auto;
 }
 
 code {
